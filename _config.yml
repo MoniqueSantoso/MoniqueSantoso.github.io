@@ -2,20 +2,20 @@
 #   Site Settings — edit these to get started
 # =============================================
 
-title: "Your Name"
-description: "PhD Candidate · Your Department · Your University"
-url: "https://yourusername.github.io"
+title: "Monique Santoso"
+description: "PhD Candidate · Media Psychology · Stanford University"
+url: "https://moniquesantoso.github.io"
 baseurl: ""   # leave empty if your repo is yourusername.github.io
 
 # ── Personal info ──────────────────────────
 author:
-  name: "Your Name"
-  title: "PhD Candidate in Your Field"
-  institution: "Your University"
-  email: "you@university.edu"
-  google_scholar: "https://scholar.google.com"   # full URL
-  linkedin: "https://linkedin.com/in/yourhandle"
-  github: "https://github.com/yourusername"
+  name: "Monique Santoso"
+  title: "PhD Candidate in Media Psychology"
+  institution: "Department of Communication, Stanford University"
+  email: "mtsantoso@stanford.edu"
+  google_scholar: "https://scholar.google.com/citations?hl=en&user=RI8wo6YAAAAJ&view_op=list_works&sortby=pubdate"   # full URL
+  linkedin: "https://www.linkedin.com/in/mtsantoso/"
+  github: "https://github.com/moniquesantoso"
   cv: "/assets/cv.pdf"   # drop your CV in assets/ and link here
 
 # ── Navigation ─────────────────────────────
