@@ -1,0 +1,19 @@
+# _data/teaching.yml
+
+- name: "Course Name Here"
+  code: "DEPT 101"
+  role: "Teaching Assistant"
+  term: "Spring 2024"
+  description: "Brief description of the course and what you did as TA — e.g., led weekly discussion sections, held office hours, designed problem sets."
+
+- name: "Another Course You Taught"
+  code: "DEPT 220"
+  role: "Instructor"
+  term: "Fall 2023"
+  description: "Description of your role and responsibilities in this course."
+
+- name: "Graduate Seminar"
+  code: "DEPT 501"
+  role: "Guest Lecturer"
+  term: "Spring 2023"
+  description: "Delivered two guest lectures on your area of expertise."

@@ -1,0 +1,24 @@
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+    <ul class="nav-links">
+      {% for item in site.nav %}
+      <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+      {% endfor %}
+    </ul>
+    <button class="hamburger" aria-label="Toggle menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    {% for item in site.nav %}
+    <a href="{{ item.url }}" onclick="toggleMenu()">{{ item.label }}</a>
+    {% endfor %}
+  </div>
+</nav>
+
+<script>
+function toggleMenu() {
+  document.getElementById('mobile-menu').classList.toggle('open');
+}
+</script>

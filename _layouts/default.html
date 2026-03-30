@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.author.name }} — Academic Portfolio</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+
+  {% include nav.html %}
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p>© {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+      <p class="footer-sub">Built with Jekyll · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+</body>
+</html>

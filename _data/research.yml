@@ -1,0 +1,31 @@
+# _data/research.yml
+# Add one entry per paper. All fields except 'title' are optional.
+
+- title: "Your Paper Title Here: A Study of Something Important"
+  authors: "Your Name, Co-Author One, Co-Author Two"
+  venue: "Conference on Important Things (CONF), 2024"
+  tags: [Accessibility, HCI, Education]
+  links:
+    - label: "PDF"
+      url: "#"
+    - label: "Code"
+      url: "#"
+  award: "Best Paper Award"
+
+- title: "Another Paper Title: Further Investigations"
+  authors: "Your Name, Another Collaborator"
+  venue: "Journal of Excellent Research, 2023"
+  tags: [Machine Learning, Systems]
+  links:
+    - label: "PDF"
+      url: "#"
+    - label: "Slides"
+      url: "#"
+
+- title: "A Third Paper on Yet Another Topic"
+  authors: "Collaborator One, Your Name"
+  venue: "Workshop on Emerging Ideas, 2022"
+  tags: [Education, Policy]
+  links:
+    - label: "PDF"
+      url: "#"

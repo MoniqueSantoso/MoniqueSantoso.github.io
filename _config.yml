@@ -1,0 +1,39 @@
+# =============================================
+#   Site Settings — edit these to get started
+# =============================================
+
+title: "Your Name"
+description: "PhD Candidate · Your Department · Your University"
+url: "https://yourusername.github.io"
+baseurl: ""   # leave empty if your repo is yourusername.github.io
+
+# ── Personal info ──────────────────────────
+author:
+  name: "Your Name"
+  title: "PhD Candidate in Your Field"
+  institution: "Your University"
+  email: "you@university.edu"
+  google_scholar: "https://scholar.google.com"   # full URL
+  linkedin: "https://linkedin.com/in/yourhandle"
+  github: "https://github.com/yourusername"
+  cv: "/assets/cv.pdf"   # drop your CV in assets/ and link here
+
+# ── Navigation ─────────────────────────────
+nav:
+  - label: "About"
+    url: "#about"
+  - label: "Research"
+    url: "#research"
+  - label: "Teaching"
+    url: "#teaching"
+  - label: "Contact"
+    url: "#contact"
+
+# ── Build settings ──────────────────────────
+markdown: kramdown
+theme: minima          # GitHub Pages safe; we override all styles
+plugins:
+  - jekyll-seo-tag
+
+kramdown:
+  input: GFM
